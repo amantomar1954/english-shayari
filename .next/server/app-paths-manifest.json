@@ -1,9 +1,0 @@
-{
-  "/friendship/page": "app/friendship/page.js",
-  "/write-shayari/page": "app/write-shayari/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/recent/page": "app/recent/page.js",
-  "/daily-shayari/page": "app/daily-shayari/page.js",
-  "/about/page": "app/about/page.js",
-  "/motivational/page": "app/motivational/page.js"
-}
