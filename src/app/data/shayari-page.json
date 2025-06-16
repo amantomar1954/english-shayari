@@ -1,0 +1,542 @@
+{
+  "categories": {
+    "love": {
+      "name": "Love Shayari",
+      "hindiName": "Love Shayari",
+      "description": "Express your deepest emotions with our beautiful collection of love shayaris",
+      "bgGradient": "from-pink-50 via-rose-50 to-red-50",
+      "primaryColor": "pink",
+      "secondaryColor": "red",
+      "emojis": ["💕", "💖", "💗", "💝", "💘", "💞", "💓", "💟", "❤️", "🌹"],
+      "backgroundTexts": ["Love", "Passion", "Affection", "Heart", "Romance", "Devotion"],
+      "subcategories": [
+        {
+          "name": "All",
+          "color": "from-pink-500 to-red-500"
+        },
+        {
+          "name": "Romantic",
+          "color": "from-rose-500 to-pink-500"
+        },
+        {
+          "name": "Passionate",
+          "color": "from-red-500 to-rose-600"
+        },
+        {
+          "name": "Devotional",
+          "color": "from-purple-500 to-pink-500"
+        },
+        {
+          "name": "Longing",
+          "color": "from-blue-500 to-purple-500"
+        },
+        {
+          "name": "Sacrifice",
+          "color": "from-gray-500 to-red-500"
+        },
+        {
+          "name": "True Love",
+          "color": "from-pink-600 to-red-600"
+        }
+      ],
+      "shayaris": [
+        {
+          "id": 1,
+          "text": "I live only through memories of you,\nWithout you, what would I even do?\nEvery heartbeat whispers your name,\nWithout you, I'm incomplete, that's my pain.",
+          "author": "Amit Sharma",
+          "category": "Romantic",
+          "likes": 2450,
+          "views": 8920,
+          "shares": 340,
+          "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop",
+          "mood": "romantic",
+          "tags": ["love", "memories", "heart"],
+          "dateAdded": "2024-01-15"
+        },
+        {
+          "id": 2,
+          "text": "The madness of love speaks through my veins,\nEvery heartbeat echoes your name.\nWhat can I do with this heart that loves you so?\nWithout you, happiness it will never know.",
+          "author": "Priya Gupta",
+          "category": "Passionate",
+          "likes": 1890,
+          "views": 6540,
+          "shares": 280,
+          "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=400&h=300&fit=crop",
+          "mood": "passionate",
+          "tags": ["passion", "madness", "love"],
+          "dateAdded": "2024-01-12"
+        }
+      ]
+    },
+    "sad": {
+      "name": "Sad Shayari",
+      "hindiName": "Sad Shayari",
+      "description": "Express your pain and sorrow through touching words",
+      "bgGradient": "from-gray-50 via-blue-50 to-indigo-50",
+      "primaryColor": "blue",
+      "secondaryColor": "gray",
+      "emojis": ["😢", "💔", "😭", "🥺", "😞", "💧", "🌧️", "⛈️", "🌙", "🖤"],
+      "backgroundTexts": ["Pain", "Grief", "Tears", "Heartbreak", "Loneliness", "Sorrow"],
+      "subcategories": [
+        {
+          "name": "All",
+          "color": "from-blue-500 to-gray-500"
+        },
+        {
+          "name": "Heartbreak",
+          "color": "from-red-500 to-gray-600"
+        },
+        {
+          "name": "Loneliness",
+          "color": "from-blue-600 to-indigo-600"
+        },
+        {
+          "name": "Pain",
+          "color": "from-gray-600 to-black"
+        },
+        {
+          "name": "Tears",
+          "color": "from-blue-400 to-blue-600"
+        },
+        {
+          "name": "Memories",
+          "color": "from-purple-500 to-gray-500"
+        }
+      ],
+      "shayaris": [
+        {
+          "id": 9,
+          "text": "This story is written in the language of tears,\nA testament to how my heart broke over years.\nWhy did you leave me all alone?\nNow only emptiness in my heart is shown.",
+          "author": "Sumitra Devi",
+          "category": "Heartbreak",
+          "likes": 1890,
+          "views": 7650,
+          "shares": 280,
+          "image": "https://images.unsplash.com/photo-1494548162494-384bba4ab999?w=400&h=300&fit=crop",
+          "mood": "heartbreak",
+          "tags": ["tears", "broken", "empty"],
+          "dateAdded": "2024-01-20"
+        }
+      ]
+    },
+    "friendship": {
+      "name": "Friendship Shayari",
+      "hindiName": "Friendship Shayari",
+      "description": "Celebrate the beautiful bond of friendship with heartfelt words",
+      "bgGradient": "from-yellow-50 via-orange-50 to-amber-50",
+      "primaryColor": "yellow",
+      "secondaryColor": "orange",
+      "emojis": ["🤝", "👬", "👭", "👫", "💛", "🫂", "🤗", "🤲", "🙌", "✨"],
+      "backgroundTexts": ["Friendship", "Bond", "Together", "Companionship", "Brotherhood", "Friend"],
+      "subcategories": [
+        {
+          "name": "All",
+          "color": "from-yellow-500 to-orange-500"
+        },
+        {
+          "name": "True Friendship",
+          "color": "from-amber-500 to-yellow-500"
+        },
+        {
+          "name": "Memories",
+          "color": "from-orange-500 to-red-500"
+        },
+        {
+          "name": "Support",
+          "color": "from-green-500 to-yellow-500"
+        },
+        {
+          "name": "Distance",
+          "color": "from-blue-500 to-yellow-500"
+        },
+        {
+          "name": "Brotherhood",
+          "color": "from-red-500 to-yellow-500"
+        }
+      ],
+      "shayaris": [
+        {
+          "id": 13,
+          "text": "Friendship is the melody that connects hearts,\nThe support that helps when life falls apart.\nAll worldly joys may come your way,\nBut true friends are treasures that forever stay.",
+          "author": "Rajesh Mishra",
+          "category": "True Friendship",
+          "likes": 1870,
+          "views": 6540,
+          "shares": 320,
+          "image": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400&h=300&fit=crop",
+          "mood": "friendship",
+          "tags": ["friendship", "support", "treasure"],
+          "dateAdded": "2024-01-22"
+        }
+      ]
+    },
+    "life": {
+      "name": "Life Shayari",
+      "hindiName": "Life Shayari",
+      "description": "Reflections on the journey of life through poetic verses",
+      "bgGradient": "from-green-50 via-teal-50 to-emerald-50",
+      "primaryColor": "green",
+      "secondaryColor": "teal",
+      "emojis": ["🌱", "🌍", "🌞", "🌻", "🌊", "🍃", "🕊️", "🌄", "🌌", "🪴"],
+      "backgroundTexts": ["Life", "Journey", "Time", "Experience", "Wisdom", "Destiny"],
+      "subcategories": [
+        {
+          "name": "All",
+          "color": "from-green-500 to-teal-500"
+        },
+        {
+          "name": "Philosophical",
+          "color": "from-emerald-500 to-green-600"
+        },
+        {
+          "name": "Struggles",
+          "color": "from-gray-500 to-green-500"
+        },
+        {
+          "name": "Lessons",
+          "color": "from-lime-500 to-green-500"
+        },
+        {
+          "name": "Time",
+          "color": "from-blue-500 to-green-500"
+        },
+        {
+          "name": "Journey",
+          "color": "from-teal-500 to-emerald-500"
+        }
+      ],
+      "shayaris": [
+        {
+          "id": 21,
+          "text": "Life is but a fleeting moment,\nA story written with time's pen.\nCherish each chapter as it comes,\nFor you'll never read this page again.",
+          "author": "Vikram Seth",
+          "category": "Philosophical",
+          "likes": 2100,
+          "views": 7800,
+          "shares": 410,
+          "image": "https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?w=400&h=300&fit=crop",
+          "mood": "philosophical",
+          "tags": ["time", "moment", "fleeting"],
+          "dateAdded": "2024-02-05"
+        },
+        {
+          "id": 22,
+          "text": "The river of life flows with twists and turns,\nTeaching us lessons at every bend we discern.\nSome chapters bring joy, others bring pain,\nBut each experience makes us wise again.",
+          "author": "Neha Kapoor",
+          "category": "Journey",
+          "likes": 1870,
+          "views": 6540,
+          "shares": 290,
+          "image": "https://images.unsplash.com/photo-1470114716159-e389f8712fda?w=400&h=300&fit=crop",
+          "mood": "reflective",
+          "tags": ["river", "lessons", "wisdom"],
+          "dateAdded": "2024-02-10"
+        },
+        {
+          "id": 23,
+          "text": "Time is the currency we cannot earn,\nOnce spent, it will never return.\nInvest it wisely in things that last,\nFor the present moment quickly becomes past.",
+          "author": "Rahul Mehta",
+          "category": "Time",
+          "likes": 2450,
+          "views": 8900,
+          "shares": 520,
+          "image": "https://images.unsplash.com/photo-1506784242126-2a0b0b89c56a?w=400&h=300&fit=crop",
+          "mood": "thoughtful",
+          "tags": ["time", "moment", "investment"],
+          "dateAdded": "2024-02-15"
+        },
+        {
+          "id": 24,
+          "text": "Like a tree that weathers every storm,\nStanding tall through winters cold and warm.\nOur roots grow deeper with each test,\nMaking us stronger than all the rest.",
+          "author": "Ananya Joshi",
+          "category": "Struggles",
+          "likes": 1780,
+          "views": 6200,
+          "shares": 310,
+          "image": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=400&h=300&fit=crop",
+          "mood": "resilient",
+          "tags": ["strength", "storm", "growth"],
+          "dateAdded": "2024-02-18"
+        },
+        {
+          "id": 25,
+          "text": "The mirror of life shows our true face,\nReflecting choices we can't erase.\nEvery action, every deed,\nPlants a seed we'll one day need.",
+          "author": "Karan Malhotra",
+          "category": "Philosophical",
+          "likes": 1980,
+          "views": 7100,
+          "shares": 380,
+          "image": "https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=400&h=300&fit=crop",
+          "mood": "introspective",
+          "tags": ["choices", "consequences", "reflection"],
+          "dateAdded": "2024-02-20"
+        },
+        {
+          "id": 26,
+          "text": "Life's not about the breaths we take,\nBut the moments that make our hearts awake.\nThe laughter shared, the tears we've known,\nThe love we've given, the seeds we've sown.",
+          "author": "Priyanka Reddy",
+          "category": "Lessons",
+          "likes": 2300,
+          "views": 8500,
+          "shares": 490,
+          "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=300&fit=crop",
+          "mood": "inspiring",
+          "tags": ["moments", "meaning", "purpose"],
+          "dateAdded": "2024-02-22"
+        },
+        {
+          "id": 27,
+          "text": "The pages turn in life's great book,\nEach chapter brings a different look.\nSome lines bring joy, some bring tears,\nBut all will fade with passing years.",
+          "author": "Arjun Patel",
+          "category": "Journey",
+          "likes": 1650,
+          "views": 5900,
+          "shares": 270,
+          "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=300&fit=crop",
+          "mood": "poetic",
+          "tags": ["story", "chapters", "time"],
+          "dateAdded": "2024-02-25"
+        },
+        {
+          "id": 28,
+          "text": "Like waves that crash upon the shore,\nOur troubles come, then are no more.\nWhat seems so large will soon seem small,\nThis too shall pass - that's all.",
+          "author": "Meera Nair",
+          "category": "Philosophical",
+          "likes": 2100,
+          "views": 7700,
+          "shares": 430,
+          "image": "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=400&h=300&fit=crop",
+          "mood": "comforting",
+          "tags": ["troubles", "temporary", "waves"],
+          "dateAdded": "2024-02-28"
+        },
+        {
+          "id": 29,
+          "text": "The clock ticks on without a sound,\nMarking time as it circles round.\nYesterday's gone, tomorrow's unknown,\nToday's the day that's yours to own.",
+          "author": "Rishi Verma",
+          "category": "Time",
+          "likes": 1950,
+          "views": 7000,
+          "shares": 360,
+          "image": "https://images.unsplash.com/photo-1518632618333-09f6a5e9a8d1?w=400&h=300&fit=crop",
+          "mood": "urgent",
+          "tags": ["present", "moment", "opportunity"],
+          "dateAdded": "2024-03-01"
+        },
+        {
+          "id": 30,
+          "text": "Life's garden grows with care and toil,\nSome flowers bloom while others spoil.\nBut every plant has its season to rise,\nUnder the same vast open skies.",
+          "author": "Sunita Rao",
+          "category": "Lessons",
+          "likes": 1780,
+          "views": 6400,
+          "shares": 290,
+          "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=400&h=300&fit=crop",
+          "mood": "hopeful",
+          "tags": ["patience", "growth", "seasons"],
+          "dateAdded": "2024-03-05"
+        }
+      ]
+    },
+    "motivational": {
+      "name": "Motivational Shayari",
+      "hindiName": "Motivational Shayari",
+      "description": "Inspire yourself with powerful words that ignite passion and determination",
+      "bgGradient": "from-orange-50 via-amber-50 to-yellow-50",
+      "primaryColor": "orange",
+      "secondaryColor": "yellow",
+      "emojis": ["💪", "🔥", "🚀", "🏆", "🌟", "✨", "⚡", "👑", "🏅", "🌈"],
+      "backgroundTexts": ["Success", "Victory", "Achievement", "Dreams", "Goals", "Ambition"],
+      "subcategories": [
+        {
+          "name": "All",
+          "color": "from-orange-500 to-yellow-500"
+        },
+        {
+          "name": "Success",
+          "color": "from-amber-500 to-orange-500"
+        },
+        {
+          "name": "Dreams",
+          "color": "from-yellow-500 to-red-500"
+        },
+        {
+          "name": "Hard Work",
+          "color": "from-red-500 to-orange-500"
+        },
+        {
+          "name": "Perseverance",
+          "color": "from-gray-500 to-orange-500"
+        },
+        {
+          "name": "Self-Belief",
+          "color": "from-purple-500 to-yellow-500"
+        }
+      ],
+      "shayaris": [
+        {
+          "id": 31,
+          "text": "The mountain seems high until you start to climb,\nEvery great journey begins one step at a time.\nDon't measure the distance, just take the first stride,\nFor impossible dreams with courage are tried.",
+          "author": "Aditya Khanna",
+          "category": "Success",
+          "likes": 2650,
+          "views": 9200,
+          "shares": 580,
+          "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400&h=300&fit=crop",
+          "mood": "inspiring",
+          "tags": ["mountain", "journey", "courage"],
+          "dateAdded": "2024-03-10"
+        },
+        {
+          "id": 32,
+          "text": "Stars can't shine without the dark,\nSuccess needs failure to make its mark.\nEvery setback is just a test,\nTo prove you want it more than the rest.",
+          "author": "Nisha Sharma",
+          "category": "Perseverance",
+          "likes": 2300,
+          "views": 8500,
+          "shares": 490,
+          "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=400&h=300&fit=crop",
+          "mood": "determined",
+          "tags": ["failure", "success", "setback"],
+          "dateAdded": "2024-03-12"
+        },
+        {
+          "id": 33,
+          "text": "Dreams are seeds that need your care,\nWater them with work and they'll grow there.\nThe soil of effort, the sunshine of will,\nWith patience and time, your garden will fill.",
+          "author": "Rohit Malhotra",
+          "category": "Dreams",
+          "likes": 2450,
+          "views": 8900,
+          "shares": 530,
+          "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400&h=300&fit=crop",
+          "mood": "hopeful",
+          "tags": ["dreams", "effort", "patience"],
+          "dateAdded": "2024-03-15"
+        },
+        {
+          "id": 34,
+          "text": "The fire within burns bright and true,\nNo ocean of doubt can quench its hue.\nFeed the flames with faith so strong,\nAnd watch how you prove the doubters wrong.",
+          "author": "Kavita Singh",
+          "category": "Self-Belief",
+          "likes": 2100,
+          "views": 7800,
+          "shares": 450,
+          "image": "https://images.unsplash.com/photo-1517976384346-3136801d605d?w=400&h=300&fit=crop",
+          "mood": "passionate",
+          "tags": ["determination", "faith", "doubt"],
+          "dateAdded": "2024-03-18"
+        },
+        {
+          "id": 35,
+          "text": "Sweat today for smiles tomorrow,\nHard work saves you from future sorrow.\nThe pain of discipline or regret's sharp sting,\nChoose your struggle - it changes everything.",
+          "author": "Vivek Oberoi",
+          "category": "Hard Work",
+          "likes": 2750,
+          "views": 9500,
+          "shares": 620,
+          "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+          "mood": "disciplined",
+          "tags": ["discipline", "sacrifice", "future"],
+          "dateAdded": "2024-03-20"
+        },
+        {
+          "id": 36,
+          "text": "The eagle learns to fly by falling,\nThe master first knew nothing at all.\nEvery expert was once a beginner,\nEvery winner first faced a sinner.",
+          "author": "Anjali Mehta",
+          "category": "Perseverance",
+          "likes": 1980,
+          "views": 7200,
+          "shares": 410,
+          "image": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=400&h=300&fit=crop",
+          "mood": "encouraging",
+          "tags": ["learning", "process", "beginner"],
+          "dateAdded": "2024-03-22"
+        },
+        {
+          "id": 37,
+          "text": "Your limits exist only in your mind,\nBreak those chains and you will find.\nPotential unlimited, power so deep,\nAwaiting the courage to take the leap.",
+          "author": "Rajiv Bajaj",
+          "category": "Self-Belief",
+          "likes": 2550,
+          "views": 9100,
+          "shares": 570,
+          "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=300&fit=crop",
+          "mood": "empowering",
+          "tags": ["limits", "potential", "courage"],
+          "dateAdded": "2024-03-25"
+        },
+        {
+          "id": 38,
+          "text": "The night is darkest before the dawn,\nYour struggle means success is being born.\nKeep moving forward through the pain,\nFor sunshine always follows rain.",
+          "author": "Suman Grover",
+          "category": "Perseverance",
+          "likes": 2250,
+          "views": 8300,
+          "shares": 480,
+          "image": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=400&h=300&fit=crop",
+          "mood": "hopeful",
+          "tags": ["darkness", "dawn", "struggle"],
+          "dateAdded": "2024-03-28"
+        },
+        {
+          "id": 39,
+          "text": "Champions aren't made in gyms of gold,\nBut in arenas where stories of grit are told.\nWhere ordinary people do extraordinary things,\nBy the power of the spirit that within them sings.",
+          "author": "Arun Joshi",
+          "category": "Hard Work",
+          "likes": 2400,
+          "views": 8800,
+          "shares": 520,
+          "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=300&fit=crop",
+          "mood": "inspiring",
+          "tags": ["champions", "grit", "spirit"],
+          "dateAdded": "2024-04-01"
+        },
+        {
+          "id": 40,
+          "text": "Your current chapter isn't your whole story,\nThe coming pages will reveal your glory.\nKeep writing with courage, don't put down the pen,\nFor the best is yet to come - just wait till then.",
+          "author": "Preeti Reddy",
+          "category": "Dreams",
+          "likes": 2150,
+          "views": 7900,
+          "shares": 460,
+          "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&h=300&fit=crop",
+          "mood": "optimistic",
+          "tags": ["story", "future", "hope"],
+          "dateAdded": "2024-04-05"
+        },
+        {
+          "id": 41,
+          "text": "The world will test your will each day,\nWith obstacles placed in your way.\nBut diamonds form under pressure's might,\nAnd gold is purified in fire's light.",
+          "author": "Manish Kapoor",
+          "category": "Perseverance",
+          "likes": 2300,
+          "views": 8400,
+          "shares": 510,
+          "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=400&h=300&fit=crop",
+          "mood": "resilient",
+          "tags": ["pressure", "strength", "challenges"],
+          "dateAdded": "2024-04-10"
+        },
+        {
+          "id": 42,
+          "text": "Success isn't about never falling down,\nBut rising each time you hit the ground.\nIt's the scratches that polish the stone,\nAnd the trials that make your strength known.",
+          "author": "Deepika Malhotra",
+          "category": "Success",
+          "likes": 2500,
+          "views": 9000,
+          "shares": 550,
+          "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=300&fit=crop",
+          "mood": "determined",
+          "tags": ["resilience", "failure", "rising"],
+          "dateAdded": "2024-04-15"
+        }
+      ]
+    }
+  },
+  "stats": {
+    "totalShayaris": "5,000+",
+    "happyHearts": "150K+",
+    "dailyReads": "80K+",
+    "categories": "17+"
+  }
+}
