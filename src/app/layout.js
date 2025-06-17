@@ -7,8 +7,8 @@ const sans = GeistSans
 const mono = GeistMono
 
 export const metadata = {
-  title: 'Hindi Shayarii',
-  description: 'A collection of Hindi Shayaris',
+  title: 'EnglishShayari | 110+ Best English Shayari | Love Shayari In English',
+  description: 'Find the most romantic EnglishShayari collection with 110+ love poems, emotional verses, and heartfelt quotes to express your deepest feelings perfectly.',
 }
 
 export default function RootLayout({ children }) {

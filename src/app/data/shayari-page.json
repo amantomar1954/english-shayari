@@ -48,7 +48,7 @@
           "likes": 2450,
           "views": 8920,
           "shares": 340,
-          "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop",
+          "image": "/love/love-1.jpeg",
           "mood": "romantic",
           "tags": ["love", "memories", "heart"],
           "dateAdded": "2024-01-15"
@@ -61,7 +61,7 @@
           "likes": 1890,
           "views": 6540,
           "shares": 280,
-          "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=400&h=300&fit=crop",
+          "image": "/love/love-2.jpeg",
           "mood": "passionate",
           "tags": ["passion", "madness", "love"],
           "dateAdded": "2024-01-12"
@@ -112,7 +112,7 @@
           "likes": 1890,
           "views": 7650,
           "shares": 280,
-          "image": "https://images.unsplash.com/photo-1494548162494-384bba4ab999?w=400&h=300&fit=crop",
+          "image": "/sad/sad-1.jpeg",
           "mood": "heartbreak",
           "tags": ["tears", "broken", "empty"],
           "dateAdded": "2024-01-20"
@@ -163,7 +163,7 @@
           "likes": 1870,
           "views": 6540,
           "shares": 320,
-          "image": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400&h=300&fit=crop",
+          "image": "/friendship/friendship-1.jpeg",
           "mood": "friendship",
           "tags": ["friendship", "support", "treasure"],
           "dateAdded": "2024-01-22"
@@ -214,7 +214,7 @@
           "likes": 2100,
           "views": 7800,
           "shares": 410,
-          "image": "https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?w=400&h=300&fit=crop",
+          "image": "/life/life-1.jpeg",
           "mood": "philosophical",
           "tags": ["time", "moment", "fleeting"],
           "dateAdded": "2024-02-05"
@@ -227,7 +227,7 @@
           "likes": 1870,
           "views": 6540,
           "shares": 290,
-          "image": "https://images.unsplash.com/photo-1470114716159-e389f8712fda?w=400&h=300&fit=crop",
+          "image": "/life/life-2.jpeg",
           "mood": "reflective",
           "tags": ["river", "lessons", "wisdom"],
           "dateAdded": "2024-02-10"
@@ -240,7 +240,7 @@
           "likes": 2450,
           "views": 8900,
           "shares": 520,
-          "image": "https://images.unsplash.com/photo-1506784242126-2a0b0b89c56a?w=400&h=300&fit=crop",
+          "image": "/life/life-3.jpeg",
           "mood": "thoughtful",
           "tags": ["time", "moment", "investment"],
           "dateAdded": "2024-02-15"
@@ -253,7 +253,7 @@
           "likes": 1780,
           "views": 6200,
           "shares": 310,
-          "image": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=400&h=300&fit=crop",
+          "image": "/life/life-4.jpeg",
           "mood": "resilient",
           "tags": ["strength", "storm", "growth"],
           "dateAdded": "2024-02-18"
@@ -266,7 +266,7 @@
           "likes": 1980,
           "views": 7100,
           "shares": 380,
-          "image": "https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=400&h=300&fit=crop",
+          "image": "/life/life-5.jpeg",
           "mood": "introspective",
           "tags": ["choices", "consequences", "reflection"],
           "dateAdded": "2024-02-20"
@@ -279,7 +279,7 @@
           "likes": 2300,
           "views": 8500,
           "shares": 490,
-          "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=300&fit=crop",
+          "image": "/life/life-6.jpeg",
           "mood": "inspiring",
           "tags": ["moments", "meaning", "purpose"],
           "dateAdded": "2024-02-22"
@@ -292,7 +292,7 @@
           "likes": 1650,
           "views": 5900,
           "shares": 270,
-          "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=300&fit=crop",
+          "image": "/life/life-7.jpeg",
           "mood": "poetic",
           "tags": ["story", "chapters", "time"],
           "dateAdded": "2024-02-25"
@@ -305,7 +305,7 @@
           "likes": 2100,
           "views": 7700,
           "shares": 430,
-          "image": "https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=400&h=300&fit=crop",
+          "image": "/life/life-8.jpeg",
           "mood": "comforting",
           "tags": ["troubles", "temporary", "waves"],
           "dateAdded": "2024-02-28"
@@ -318,7 +318,7 @@
           "likes": 1950,
           "views": 7000,
           "shares": 360,
-          "image": "https://images.unsplash.com/photo-1518632618333-09f6a5e9a8d1?w=400&h=300&fit=crop",
+          "image": "/life/life-9.jpeg",
           "mood": "urgent",
           "tags": ["present", "moment", "opportunity"],
           "dateAdded": "2024-03-01"
@@ -331,7 +331,7 @@
           "likes": 1780,
           "views": 6400,
           "shares": 290,
-          "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=400&h=300&fit=crop",
+          "image": "/life/life-10.jpeg",
           "mood": "hopeful",
           "tags": ["patience", "growth", "seasons"],
           "dateAdded": "2024-03-05"
@@ -382,7 +382,7 @@
           "likes": 2650,
           "views": 9200,
           "shares": 580,
-          "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400&h=300&fit=crop",
+          "image": "/motivational/motivational-1.jpeg",
           "mood": "inspiring",
           "tags": ["mountain", "journey", "courage"],
           "dateAdded": "2024-03-10"
@@ -395,7 +395,7 @@
           "likes": 2300,
           "views": 8500,
           "shares": 490,
-          "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=400&h=300&fit=crop",
+          "image": "/motivational/motivational-2.jpeg",
           "mood": "determined",
           "tags": ["failure", "success", "setback"],
           "dateAdded": "2024-03-12"
@@ -408,7 +408,7 @@
           "likes": 2450,
           "views": 8900,
           "shares": 530,
-          "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400&h=300&fit=crop",
+          "image": "/motivational/motivational-3.jpeg",
           "mood": "hopeful",
           "tags": ["dreams", "effort", "patience"],
           "dateAdded": "2024-03-15"
@@ -421,7 +421,7 @@
           "likes": 2100,
           "views": 7800,
           "shares": 450,
-          "image": "https://images.unsplash.com/photo-1517976384346-3136801d605d?w=400&h=300&fit=crop",
+          "image": "/motivational/motivational-4.jpeg",
           "mood": "passionate",
           "tags": ["determination", "faith", "doubt"],
           "dateAdded": "2024-03-18"
@@ -434,7 +434,7 @@
           "likes": 2750,
           "views": 9500,
           "shares": 620,
-          "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+          "image": "/motivational/motivational-5.jpeg",
           "mood": "disciplined",
           "tags": ["discipline", "sacrifice", "future"],
           "dateAdded": "2024-03-20"
@@ -447,7 +447,7 @@
           "likes": 1980,
           "views": 7200,
           "shares": 410,
-          "image": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=400&h=300&fit=crop",
+          "image": "/motivational/motivational-6.jpeg",
           "mood": "encouraging",
           "tags": ["learning", "process", "beginner"],
           "dateAdded": "2024-03-22"
@@ -460,7 +460,7 @@
           "likes": 2550,
           "views": 9100,
           "shares": 570,
-          "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=300&fit=crop",
+          "image": "/motivational/motivational-7.jpeg",
           "mood": "empowering",
           "tags": ["limits", "potential", "courage"],
           "dateAdded": "2024-03-25"
@@ -473,7 +473,7 @@
           "likes": 2250,
           "views": 8300,
           "shares": 480,
-          "image": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=400&h=300&fit=crop",
+          "image": "/motivational/motivational-8.jpeg",
           "mood": "hopeful",
           "tags": ["darkness", "dawn", "struggle"],
           "dateAdded": "2024-03-28"
@@ -486,7 +486,7 @@
           "likes": 2400,
           "views": 8800,
           "shares": 520,
-          "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=300&fit=crop",
+          "image": "/motivational/motivational-9.jpeg",
           "mood": "inspiring",
           "tags": ["champions", "grit", "spirit"],
           "dateAdded": "2024-04-01"
@@ -499,7 +499,7 @@
           "likes": 2150,
           "views": 7900,
           "shares": 460,
-          "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&h=300&fit=crop",
+          "image": "/motivational/motivational-10.jpeg",
           "mood": "optimistic",
           "tags": ["story", "future", "hope"],
           "dateAdded": "2024-04-05"
@@ -512,7 +512,7 @@
           "likes": 2300,
           "views": 8400,
           "shares": 510,
-          "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=400&h=300&fit=crop",
+          "image": "/motivational/motivational-11.jpeg",
           "mood": "resilient",
           "tags": ["pressure", "strength", "challenges"],
           "dateAdded": "2024-04-10"
@@ -525,7 +525,7 @@
           "likes": 2500,
           "views": 9000,
           "shares": 550,
-          "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=300&fit=crop",
+          "image": "/motivational/motivational-12.jpeg",
           "mood": "determined",
           "tags": ["resilience", "failure", "rising"],
           "dateAdded": "2024-04-15"

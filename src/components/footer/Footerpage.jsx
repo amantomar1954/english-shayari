@@ -92,7 +92,7 @@ const footerLinks = {
     { name: "About Us", href: "/about", icon: MessageCircle },
     { name: "Contact Us", href: "/contact", icon: Mail },
     { name: "Privacy Policy", href: "/privacy", icon: Shield },
-    { name: "Terms of Service", href: "/", icon: FileText },
+    { name: "Terms of Service", href: "/termsandcondition", icon: FileText },
     // { name: "Guidelines", href: "/guidelines", icon: BookOpen },
     // { name: "Report Issue", href: "/report", icon: AlertTriangle },
   ],

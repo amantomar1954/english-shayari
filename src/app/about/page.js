@@ -114,7 +114,7 @@ const AboutPage = () => {
               variants={itemVariants}
             >
               <Heart className="h-5 w-5 text-amber-600 mr-2 fill-amber-600" />
-              <span className="text-amber-800 font-medium">Our Poetry Journey</span>
+              <span className="text-amber-800 font-medium">About Us – English Shayari</span>
             </motion.div>
             <motion.h1 
               className="text-4xl md:text-5xl font-bold text-gray-800 mb-6"
@@ -123,16 +123,11 @@ const AboutPage = () => {
               Celebrating the Art of <span className="text-amber-600">English Shayari</span>
             </motion.h1>
             <motion.p 
-              className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto"
+              className="text-xl text-gray-600 mb-8 max-w-4xl mx-auto"
               variants={itemVariants}
             >
-              {`We're a passionate community dedicated to preserving and promoting the beauty of poetic expression in English.`}
+              At English Shayari, we consider poetry the language of the soul-- transcending culture, age, and background. We created this platform for a single purpose: to allow the timeless art of Shayari to exist in the world of English so that emotions can flow freely towards the hearts of humans everywhere.
             </motion.p>
-            <motion.div variants={itemVariants}>
-              <button className="px-8 py-3 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium rounded-full hover:shadow-lg transition-all">
-                Join Our Community
-              </button>
-            </motion.div>
           </div>
         </motion.section>
 
@@ -153,9 +148,9 @@ const AboutPage = () => {
                 />
               </motion.div>
               <motion.div variants={itemVariants}>
-                <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Story</h2>
+                <h2 className="text-3xl font-bold text-gray-800 mb-6">Who We Are</h2>
                 <p className="text-gray-600 mb-4">
-                  Founded in 2018, Shayari World began as a small blog sharing English adaptations of classic poetry. What started as a passion project quickly grew into a thriving community of poetry enthusiasts from around the globe.
+                  We are not a website. We are a group of poetry enthusiasts, creative thinkers and emotionally intuitive people who realise the importance of words. Shayari is not just a style of writing; it is a style of feeling and expressing feelings richly and beautifully. Shayari is traditionally rooted in Urdu and Hindi; however, we wanted to create a place for readers who think and feel in English while yearning for the lyrical, emotive way of Shayari.
                 </p>
                 <p className="text-gray-600 mb-6">
                   {`Today, we're proud to be one of the largest platforms dedicated to English Shayari, with thousands of poems and hundreds of featured poets. Our mission remains the same: to make poetry accessible, enjoyable, and relevant to modern readers.`}
@@ -183,9 +178,170 @@ const AboutPage = () => {
           </div>
         </motion.section>
 
-        {/* Stats Section */}
+        {/* Our Journey Section */}
+        <motion.section 
+          className="py-16 px-4 sm:px-6 lg:px-8 bg-[#EFF3EA]"
+          initial="hidden"
+          animate={isMounted ? "visible" : "hidden"}
+          variants={containerVariants}
+        >
+          <div className="max-w-6xl mx-auto">
+            <motion.h2 
+              className="text-3xl font-bold text-center text-gray-800 mb-12"
+              variants={itemVariants}
+            >
+              Our Journey
+            </motion.h2>
+            <motion.div 
+              className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+              variants={containerVariants}
+            >
+              <motion.div variants={itemVariants}>
+                <h3 className="text-2xl font-semibold text-gray-800 mb-4">How It All Began</h3>
+                <p className="text-gray-600 mb-6">
+                  We created English Shayari because we felt Shayari in spirit, but people who are interested in Shayari had difficulty accessing it because of the language. This enabled us to create a platform/website that combines the poetic and expressive qualities of Shayari with English.
+                </p>
+                <p className="text-gray-600 mb-6">
+                  We started small with a few passionate verses, and before we knew it. People started reading our work because it spoke to people as readers rather than just writers. They needed to feel something, and we believe they found truth, solace and beauty in poetic expression.
+                </p>
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <img 
+                  src="https://images.unsplash.com/photo-1518655048521-f130df041f66?w=800&h=600&fit=crop" 
+                  alt="Writing journey"
+                  className="rounded-2xl shadow-xl w-full"
+                />
+              </motion.div>
+            </motion.div>
+          </div>
+        </motion.section>
+
+        {/* What Makes Us Unique Section */}
+        <motion.section 
+          className="py-16 px-4 sm:px-6 lg:px-8 bg-white/90 backdrop-blur-sm"
+          initial="hidden"
+          animate={isMounted ? "visible" : "hidden"}
+          variants={containerVariants}
+        >
+          <div className="max-w-6xl mx-auto">
+            <motion.h2 
+              className="text-3xl font-bold text-center text-gray-800 mb-12"
+              variants={itemVariants}
+            >
+              What Makes Us Unique
+            </motion.h2>
+            <motion.div 
+              className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+              variants={containerVariants}
+            >
+              <motion.div variants={itemVariants}>
+                <img 
+                  src="https://images.unsplash.com/photo-1517842645767-c639042777db?w=800&h=600&fit=crop" 
+                  alt="Unique poetry"
+                  className="rounded-2xl shadow-xl w-full"
+                />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <p className="text-gray-600 mb-6">
+                  Many sites provide quotes and poetry; however, English Shayari focuses on one and only thing: emotion through elegant verse. Every piece we create intends to elicit a feeling, whether that be love, sorrow, nostalgia, or hope. We also put a lot of effort into creating original Shayari that is simple to read yet emotionally rich. 
+                </p>
+                <p className="text-gray-600 mb-6">
+                  {`We do not copy in other languages or translate moments of Shayari. We create original pieces with stay true to the poetic tradition while speaking directly to the emotions of today's poets and readers in a modern way.`}
+                </p>
+              </motion.div>
+            </motion.div>
+          </div>
+        </motion.section>
+
+        {/* Our Audience Section */}
         <motion.section 
           className="py-16 px-4 sm:px-6 lg:px-8 bg-[#FFF2C2]"
+          initial="hidden"
+          animate={isMounted ? "visible" : "hidden"}
+          variants={containerVariants}
+        >
+          <div className="max-w-6xl mx-auto">
+            <motion.h2 
+              className="text-3xl font-bold text-center text-gray-800 mb-6"
+              variants={itemVariants}
+            >
+              Our Audience
+            </motion.h2>
+            <motion.p 
+              className="text-xl text-center text-gray-600 mb-12 max-w-2xl mx-auto"
+              variants={itemVariants}
+            >
+              Who finds connection through our poetry
+            </motion.p>
+            <motion.div 
+              className="grid grid-cols-1 md:grid-cols-2 gap-8"
+              variants={containerVariants}
+            >
+              <motion.div variants={itemVariants}>
+                <p className="text-gray-600 mb-6">
+                  Our readership consists of many different types of people: young people exploring their first loves, contemplative readers seeking inspiration, people processing a broken heart, and poets simply enjoying the art. What all of our readers have in common is their desire to connect with something more profound from reading.
+                </p>
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <img 
+                  src="https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=800&h=600&fit=crop" 
+                  alt="Diverse readers"
+                  className="rounded-2xl shadow-xl w-full"
+                />
+              </motion.div>
+            </motion.div>
+          </div>
+        </motion.section>
+
+        {/* Looking Ahead Section */}
+        <motion.section 
+          className="py-16 px-4 sm:px-6 lg:px-8 bg-white/90 backdrop-blur-sm"
+          initial="hidden"
+          animate={isMounted ? "visible" : "hidden"}
+          variants={containerVariants}
+        >
+          <div className="max-w-6xl mx-auto">
+            <motion.h2 
+              className="text-3xl font-bold text-center text-gray-800 mb-6"
+              variants={itemVariants}
+            >
+              Looking Ahead
+            </motion.h2>
+            <motion.p 
+              className="text-xl text-center text-gray-600 mb-12 max-w-2xl mx-auto"
+              variants={itemVariants}
+            >
+              Our vision for the future of English Shayari
+            </motion.p>
+            <motion.div 
+              className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+              variants={containerVariants}
+            >
+              <motion.div variants={itemVariants}>
+                <p className="text-gray-600 mb-6">
+                  {`As we continue to grow, we want to cultivate a community that embraces poetry and self-expression. We're hoping to introduce new writers, accept submissions, host contests, and introduce additional themes and categories.`}
+                </p>
+                <p className="text-gray-600 mb-6">
+                  {`Whether you're here to find the perfect verse to complement your mood or to simply get lost in thoughtful reading, we appreciate your presence.`}
+                </p>
+                <p className="text-gray-600">
+                  Thank you for being part of English Shayari, where feelings are always appreciated, and words are never disregarded.
+                </p>
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <img 
+                  src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=800&h=600&fit=crop" 
+                  alt="Future vision"
+                  className="rounded-2xl shadow-xl w-full"
+                />
+              </motion.div>
+            </motion.div>
+          </div>
+        </motion.section>
+
+        {/* Stats Section */}
+        <motion.section 
+          className="py-16 px-4 sm:px-6 lg:px-8 bg-[#EFF3EA]"
           initial="hidden"
           animate={isMounted ? "visible" : "hidden"}
           variants={containerVariants}
@@ -270,7 +426,7 @@ const AboutPage = () => {
 
         {/* Values Section */}
         <motion.section 
-          className="py-16 px-4 sm:px-6 lg:px-8 bg-[#EFF3EA]"
+          className="py-16 px-4 sm:px-6 lg:px-8 bg-[#FFF2C2]"
           initial="hidden"
           animate={isMounted ? "visible" : "hidden"}
           variants={containerVariants}
@@ -288,9 +444,9 @@ const AboutPage = () => {
             >
               {[
                 {
-                  title: "Authenticity",
-                  description: "We celebrate genuine poetic expression in all its forms, encouraging poets to stay true to their unique voices.",
-                  icon: <PenTool className="h-8 w-8 text-amber-600" />
+                  title: "Emotional Authenticity",
+                  description: "We believe in creating poetry that comes from genuine emotion and speaks truth to the human experience.",
+                  icon: <Heart className="h-8 w-8 text-amber-600 fill-amber-600" />
                 },
                 {
                   title: "Community",

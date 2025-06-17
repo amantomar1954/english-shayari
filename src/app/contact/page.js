@@ -1,7 +1,7 @@
 "use client"
 import { useState } from 'react';
 import Head from 'next/head';
-import { Mail, Phone, MapPin, Heart, Share2, Bookmark, ChevronRight } from 'lucide-react';
+import { Mail, Phone, MapPin, Heart, Share2, Bookmark, ChevronRight, Instagram, Facebook, Twitter } from 'lucide-react';
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -39,8 +39,8 @@ const ContactPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#D9DFC6] via-[#EFF3EA] to-[#FFFDF0]">
       <Head>
-        <title>Contact Us | Poetry Hub</title>
-        <meta name="description" content="Get in touch with Poetry Hub team for feedback, suggestions or collaborations" />
+        <title>Contact Us | English Shayari</title>
+        <meta name="description" content="Get in touch with English Shayari team for feedback, suggestions or collaborations" />
       </Head>
 
       {/* Floating decorative elements */}
@@ -61,9 +61,6 @@ const ContactPage = () => {
       </div>
 
       <div className="relative z-10">
-        {/* Header */}
-        
-
         {/* Main Content */}
         <main className="py-16 px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
@@ -74,10 +71,10 @@ const ContactPage = () => {
                 <span className="text-amber-800 font-medium">Connect With Us</span>
               </div>
               <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-                {`We'd Love to Hear From You`}
+                {`Get in Touch – We'd Love to Connect with You`}
               </h1>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Share your thoughts, feedback, or your own poetic creations with our community
+                At English Shayari, we believe that poetry connects hearts, and now we want to connect with you!
               </p>
             </div>
 
@@ -88,9 +85,15 @@ const ContactPage = () => {
                   Send Your Message
                 </h2>
                 
+                <p className="text-gray-600 mb-6">
+                  {`Whether you're a reader, a writer, or just someone who came across a line or verse that touched you, 
+                  we want to hear from you. Your voice is important to us, and we welcome all your thoughts, 
+                  feedback, and stories of how we may or may not have impacted your day.`}
+                </p>
+                
                 {submitSuccess && (
                   <div className="mb-6 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg">
-                    <p>{`Thank you for your message! We'll get back to you soon.`}</p>
+                    <p>{`Thank you for your message! We'll get back to you within 24-48 hours.`}</p>
                   </div>
                 )}
 
@@ -139,7 +142,7 @@ const ContactPage = () => {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 rounded-lg border border-[#D9DFC6] focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition-all duration-200 bg-white/50"
-                      placeholder="Write your message here..."
+                      placeholder="Do you have a suggestion? Are you looking to report an issue or want to work together?"
                     ></textarea>
                   </div>
 
@@ -181,8 +184,8 @@ const ContactPage = () => {
                       </div>
                       <div className="ml-4">
                         <h3 className="text-lg font-medium text-gray-800">Email Us</h3>
-                        <p className="text-gray-600 mt-1">contact@poetryhub.com</p>
-                        <p className="text-gray-600">support@poetryhub.com</p>
+                        <p className="text-gray-600 mt-1">contact@englishshayari.com</p>
+                        <p className="text-gray-600">submit@englishshayari.com (for submissions)</p>
                       </div>
                     </div>
 
@@ -211,45 +214,74 @@ const ContactPage = () => {
                   </div>
                 </div>
 
-                {/* FAQ Section */}
+                {/* Submit Shayari Section */}
                 <div className="bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl p-8 border border-[#EFF3EA]">
-                  <h2 className="text-2xl font-semibold text-gray-800 mb-6">
-                    Frequently Asked Questions
+                  <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+                    Submit Your Shayari 
                   </h2>
+                  <p className="text-gray-600 mb-4">
+                    {`Do you have an interest in poetry, whether you're starting out or already experienced? 
+                    Are you writing English Shayari and want to share it with the world? We're constantly 
+                    looking for new, interesting voices.`}
+                  </p>
+                  <p className="text-gray-600 mb-6">
+                    {`Send us your original poetry, and if it fits the style and tone of the website, 
+                    we're happy to publish it with credit to you.`}
+                  </p>
                   
-                  <div className="space-y-4">
-                    {[
-                      {
-                        question: "How can I submit my own poetry?",
-                        answer: "You can share your poems directly through our submission form or email them to submissions@poetryhub.com."
-                      },
-                      {
-                        question: "Do you offer publishing services?",
-                        answer: "Yes, we work with emerging poets to help publish their collections."
-                      },
-                      {
-                        question: "Can I request a specific poet's work?",
-                        answer: "Absolutely! We're always happy to consider adding new voices to our collection."
-                      }
-                    ].map((item, index) => (
-                      <div key={index} className="border-b border-[#EFF3EA] pb-4 last:border-0 last:pb-0">
-                        <button className="flex justify-between items-center w-full text-left">
-                          <span className="font-medium text-gray-800">{item.question}</span>
-                          <ChevronRight className="h-5 w-5 text-amber-600" />
-                        </button>
-                        <p className="mt-2 text-gray-600">{item.answer}</p>
-                      </div>
-                    ))}
+                  <div className="bg-amber-50 border-l-4 border-amber-500 p-4 mb-6">
+                    <p className="font-medium text-gray-800">Submission Email: submit@englishshayari.com</p>
+                    <p className="text-gray-600 text-sm mt-1">
+                      (Please provide your name, links to social media or website, and a bio.)
+                    </p>
                   </div>
                 </div>
               </div>
+            </div>
+
+            {/* Social Media Section */}
+            <div className="mt-16 bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl p-8 border border-[#EFF3EA]">
+              <h2 className="text-2xl font-semibold text-gray-800 mb-6 text-center">
+                Follow & Connect
+              </h2>
+              <p className="text-xl text-gray-600 mb-8 text-center max-w-3xl mx-auto">
+                We would love to have you join our community on social media and continue to 
+                share Shayari and get unique updates on Shayari that readers love!
+              </p>
+              
+              <div className="flex justify-center gap-8">
+                <a href="#" className="flex flex-col items-center group">
+                  <div className="bg-[#FFF2C2] p-4 rounded-full group-hover:bg-amber-100 transition-colors">
+                    <Instagram className="h-8 w-8 text-amber-600" />
+                  </div>
+                  <span className="mt-2 font-medium text-gray-700">@englishshayariofficial</span>
+                </a>
+                
+                <a href="#" className="flex flex-col items-center group">
+                  <div className="bg-[#FFF2C2] p-4 rounded-full group-hover:bg-amber-100 transition-colors">
+                    <Facebook className="h-8 w-8 text-amber-600" />
+                  </div>
+                  <span className="mt-2 font-medium text-gray-700">English Shayari</span>
+                </a>
+                
+                <a href="#" className="flex flex-col items-center group">
+                  <div className="bg-[#FFF2C2] p-4 rounded-full group-hover:bg-amber-100 transition-colors">
+                    <Twitter className="h-8 w-8 text-amber-600" />
+                  </div>
+                  <span className="mt-2 font-medium text-gray-700">@englishshayari</span>
+                </a>
+              </div>
+              
+              <p className="text-center text-gray-600 mt-12 text-xl">
+                {`Let's remain connected and keep the poetry flowing!`}
+              </p>
             </div>
 
             {/* Community Section */}
             <div className="mt-24 bg-gradient-to-r from-[#FFF2C2] to-[#D9DFC6] rounded-2xl p-8 md:p-12 shadow-lg">
               <div className="max-w-4xl mx-auto text-center">
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-                  Join Our Poetry Community
+                  Join Our Shayari Community
                 </h2>
                 <p className="text-xl text-gray-600 mb-8">
                   Connect with fellow poetry lovers, participate in discussions, and get featured on our platform
@@ -266,9 +298,6 @@ const ContactPage = () => {
             </div>
           </div>
         </main>
-
-        {/* Footer */}
-     
       </div>
     </div>
   );
